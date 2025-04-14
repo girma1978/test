@@ -8,7 +8,7 @@ import Auth from './utils/auth';
 
 // Hardcoded server URL - this points to your GraphQL server
 const httpLink = createHttpLink({
-  uri: 'https://graphql-api-8rbg.onrender.com/graphql',
+  uri: 'https://test-z9ry.onrender.com/graphql',
 });
 
 const authLink = setContext((_, { headers }) => {
